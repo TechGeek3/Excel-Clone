@@ -346,7 +346,7 @@ function addSheetEvents()
                         }
                         else
                         {
-                            newCellData[newsheetName] = CellData[key];
+                            newCellData[newSheetName] = cellData[key];
                         }
                     }
                     cellData = newCellData;
