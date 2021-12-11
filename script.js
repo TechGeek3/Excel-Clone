@@ -348,7 +348,7 @@ function addSheetEvents()
                         {
                             newCellData[newSheetName] = cellData[key];
                         }
-                    } 
+                    }
                     cellData = newCellData;
                     selectedSheet = newSheetName;
                     $(".sheet-rename-modal").remove();
